@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+    font-size: 3rem;
+}
+body {
+  background-color: #4c6e6e;
+  text-align: center;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 7vmin;
+  color: royalblue;
+  background-color: rgb(255, 255, 255);
+}
+.box:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px #888888;
+  border-radius: 1rem;
+}
+
+#reset-btn {
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: #191913;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msg-container {
+  height: 20vmin;
+  width:100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3vmin;
+}
+#msg{
+    margin-top: 20%;
+    font-size: 3rem;
+    color: #e6e6e6;
+}
+#newbtn{
+    font-size: 1.25rem;
+    color: #fff;
+    background-color: #191913;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    width: 30vmin;
+}
+
+.hide{
+    display: none;
+    position: absolute;
+}
