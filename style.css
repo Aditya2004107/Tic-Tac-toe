@@ -7,7 +7,7 @@ h1{
     font-size: 3rem;
 }
 body {
-  background-color: #4c6e6e;
+  background-color: #788686;
   text-align: center;
 }
 
@@ -57,6 +57,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .msg-container {
   height: 20vmin;
@@ -67,6 +68,9 @@ footer{
   justify-content: center;
   flex-direction: column;
   gap: 3vmin;
+
+  height: 100vh;
+  width: 100%;
 }
 #msg{
     margin-top: 20%;

@@ -66,7 +66,7 @@ const showWinner = (winner) => {
 const draw = () => {
   if (drawCount === 9) {
     msg.innerText = "Ooh Your Game is Draw";
-    msg.style.color = " #808080";
+    msg.style.color = "royalblue";
     msgcontainer.classList.remove("hide");
   }
 };
